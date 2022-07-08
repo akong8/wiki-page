@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"></linkrel>
+    
+    <title>Genshin Impact Wiki</title>
+</head>
+<body>
+    <div class="homepage">
+        <header>
+            <h1>GENSHIN IMPACT WIKI PAGE</h1>
+        </header>
+    </div>
+    <div class="navigation">
+        <a class="active" href="index.html">homepage</a>
+        <a href="about.html">about</a>
+        <a href="characters.html">characters</a>
+        <a href="items.html">items</a>
+      </div>
+
+      <div class="home">
+          <header>
+              <h2 class="homepagetext">Home</h2>
+          </header>
+         <main>
+            <div id="parent">
+               
+                <div class="child">
+                    <p class="hometext">Welcome to the Genshin Impact Wiki Page!</p>
+                    
+                    <hr id="one">
+                    
+                    <p class="hometext">Check out the Version 2.8 Trailer, "Summer Fantasia"!</p>
+                    
+                    <hr>
+                
+                    <iframe width="487" height="267.75" src="https://www.youtube.com/embed/JU1KtScrt1A" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; 
+                    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <hr>
+                    <p class="hometext">Countdown to the Version 2.8 Update (PST):</p>
+
+
+                    <p id="demo"></p>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate = new Date("July 12, 2022 18:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="demo"
+                        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                        + minutes + "m " + seconds + "s ";
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("demo").innerHTML = "EXPIRED";
+                        }
+                        }, 1000);
+                    </script>
+                    
+                </div>
+               
+                <div class="child">
+                    <img width=300 src="https://webstatic.hoyoverse.com/upload/event/2022/04/28/16c3ac58b54b4c7adc4dd36c8360bb76_3289863235291851964.png">
+                    <p class="hometext">Connect with Genshin Impact:</p>
+                    <hr>
+                    <div class="socials">
+                        <a href="https://genshin.hoyoverse.com/en/" target="blank">Official Website</a>
+                        <a href="https://twitter.com/GenshinImpact" target="blank">Twitter</a>
+                        <a href="https://twitch.tv/genshinimpactofficial" target="blank">Twitch</a>
+                        <a href="https://discord.com/invite/genshinimpact" target="blank">Discord</a>     
+                    </div>
+                    <hr>
+                    <img id="icon" width="300" height="175" src="media/genshin-anniversary.jpeg">
+                </div>        
+             </div>
+
+             <div id="parent-two">
+
+                <div class="banners"> 
+                    <p class="hometext">Upcoming Banners</p>
+                    <hr>
+
+                    <figure class="banner-child">
+                        <img height=300 src="media/klee.png">
+                        <figcaption class="caption">Phase 1 - Klee</figcaption>
+                    </figure>
+                    
+                    <figure class="banner-child">
+                        <img height=300 src="media/kazuha.png">
+                        <figcaption class="caption">Phase 1 - Kaedehara Kazuha</figcaption>
+                    </figure>
+
+                    <figure class="banner-child">
+                        <img height=300 src="media/heizou.png">
+                        <figcaption class="caption">Phase 1 - Shikanoin Heizou</figcaption>
+                    </figure>
+                    
+                    <figure class="banner-child">
+                        <img height=300 src="media/yoimiya.png">
+                        <figcaption class="caption">Phase 2 - Yoimiya</figcaption>
+                    </figure>  
+                    
+                </div>  
+
+             </div>
+             
+            
+
+         </main>
+      </div>
+    
+      
+</body>
+</html>

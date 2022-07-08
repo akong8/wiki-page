@@ -1,0 +1,119 @@
+body {
+    background-image: url('https://puu.sh/Hgz2M/d6f147f4e1.jpg');
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.homepage {
+    width: 80%;
+    background-color:burlywood;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.home {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2b2b2b;
+}
+#parent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.child {
+    padding: 20px;
+    border: 2px solid white;
+    max-height: 100%;
+    
+}
+h1 {
+    text-align: center;
+    font-family: HYWenHei, sans-serif;
+}
+.homepagetext {
+    text-align: left;
+    color: white;
+    font-family: HYWenHei, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.hometext {
+    text-align: center;
+    color: white;
+    font-family: HYWenHei, sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-top: -20px;
+
+}
+.navigation {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    overflow: hidden;
+}
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: HYWenHei, sans-serif;
+  }
+  .navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navigation a.active {
+    background-color: #acacac;
+    color: white;
+  }
+  .socials a {
+      font-size: 12px;
+      padding: 5px;
+      color: white;
+      font-family: HYWenHei, sans-serif;
+  }
+  .socials a:hover {
+      color: #513d99;
+  }
+  #parent-two {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: center;
+  }
+  .banners {
+    padding: 20px;
+    margin-top: 25px;
+    border: 2px solid white;
+  }
+  .banner-child {
+      padding: 5x;
+      display: inline-block;
+      
+  }
+  .caption {
+    font-family: HYWenHei, sans-serif;
+    color: white;
+    font-size: 12px;
+  }
+  #icon {
+      margin-top: 15px;
+  }
+#demo{
+    font-family: HYWenHei, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+#one {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,101 @@
+body {
+    background-image: url('https://puu.sh/Hgz2M/d6f147f4e1.jpg');
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.homepage {
+    width: 80%;
+    background-color:burlywood;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    font-family: HYWenHei, sans-serif;
+}
+.navigation {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    overflow: hidden;
+}
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: HYWenHei, sans-serif;
+  }
+  .navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navigation a.active {
+    background-color: #acacac;
+    color: white;
+  }
+  .container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2b2b2b;
+}
+.title {
+    text-align: left;
+    color: white;
+    font-family: HYWenHei, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.text {
+  font-family: HYWenHei, sans-serif;
+  color: white;
+  font-size: 17px;
+  margin-top: 0px;
+  padding-left: 20px;
+
+}
+.child {
+  padding: 20px;
+  border: 2px solid white;
+}
+#parent {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.vision {
+  font-family: HYWenHei, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-decoration: underline;
+  
+}
+.char-text {
+  font-family: HYWenHei, sans-serif;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+
+}
+.header-text {
+  font-family: HYWenHei, sans-serif;
+  color: white;
+  font-size: 14px;
+  text-decoration: underline;
+  text-align: center;
+}
+table, td {
+  border: 1px white solid;
+  table-layout: fixed;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
